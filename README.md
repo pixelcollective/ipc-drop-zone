@@ -8,6 +8,12 @@ IPC-enabled React drag-and-drop component for Electron apps. Include the compone
 
 The drop zone component will append `.request` to your handle for the request, `.response` for the response, and `.error` for the error, so you'll need to listen for those events in your main process. In the example below I'm passing `upload` as my handler. This means that I should be listening for `upload.request` in main, and responding with either `upload.error` or `upload.response`.
 
+## Install
+
+```sh
+yarn add @tinypixelco/ipc-drop-zone
+```
+
 ## Example renderer
 
 ```js
