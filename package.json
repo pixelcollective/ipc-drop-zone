@@ -1,0 +1,20 @@
+{
+  "name": "@tinypixelco/ipc-drop-zone",
+  "public": true,
+  "version": "1.0.0",
+  "description": "IPC-enabled React drag-and-drop component for Electron apps. Include the component wrapping the drop area and pass along the IPC handler name and functions to be executed on response or error.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelcollective/ipc-drop-zone.git"
+  },
+  "author": "Kelly Mears <kelly@tinypixel.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixelcollective/ipc-drop-zone/issues"
+  },
+  "homepage": "https://github.com/pixelcollective/ipc-drop-zone#readme"
+}
